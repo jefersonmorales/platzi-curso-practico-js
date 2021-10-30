@@ -2,9 +2,8 @@
 
 ...
 
-## Talle #2: Porcentajes y descuentos
-
-- Primer paso: definir formulas
-- Segundo paso: implementar las formulas en JS
-- Tercer paso: crear funciones
-- Cuarto paso: integrar JS con HTML
+## Talle #3: Promedio, moda y mediana
+-1er paso: definir formulas
+-2do paso: implementar fortmulas en JS
+-3er paso: crear funciones
+-4to paso: integrar JS con HTML
