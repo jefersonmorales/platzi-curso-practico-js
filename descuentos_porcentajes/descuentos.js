@@ -5,4 +5,16 @@ function calcularPrecioConDescuento( precio , descuento ) {
     return precioConDescuento
 }
 
-console.log(calcularPrecioConDescuento(300, 30)) // 210
+
+function toPriceDiscount() {
+    const inputPrice = document.getElementById("InputPrice");
+    const priceValue = inputPrice.value;
+
+    const inputDiscount = document.getElementById("InputDiscount");
+    const discountValue = inputDiscount.value;
+
+    const precioConDescuento = calcularPrecioConDescuento(priceValue, discountValue);
+
+    const resultPrice = document.getElementById("ResultPrice");
+    resultPrice.innerText = "El precio con descuento es $" + precioConDescuento;
+}
